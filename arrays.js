@@ -9,4 +9,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolateBar) 
 
 function addElementToEndOfArray(chocolateBars, chocolateBar) {
   var newChocolateBars = chocolateBars.push(chocolateBar);
+  return newChocolateBars;
 }
+
+function destructivelyAddElementToEndOfArray(chocolateBars, chocolateBar)
